@@ -21,13 +21,13 @@ class EulerSolver:
 
     def solve(self, initial_cond):
         """
-        Solves the nonlinear equation using Newton's method.
+        Solves an ordinary differential equation using Euler method.
 
         Parameters:
         - initial_cond: Starting value for the iteration.
 
         Returns:
-        - The root if found within the allowed iterations.
+        - The solution of an ODE within the allowed iterations.
         """
         x = initial_cond
         F = x
